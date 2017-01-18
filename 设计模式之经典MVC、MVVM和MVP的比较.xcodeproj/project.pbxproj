@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B98BB41E2F782A00494693 /* MVC_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B98BB31E2F782A00494693 /* MVC_Controller.m */; };
+		84B98BB71E2F783E00494693 /* MVVM_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B98BB61E2F783E00494693 /* MVVM_Controller.m */; };
+		84B98BBA1E2F785A00494693 /* MVP_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B98BB91E2F785A00494693 /* MVP_Controller.m */; };
+		84B98BBD1E2F787100494693 /* VIPER_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B98BBC1E2F787100494693 /* VIPER_Controller.m */; };
+		84DCB4AD1DAE102400EF9A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DCB4AC1DAE102400EF9A47 /* main.m */; };
+		84DCB4B01DAE102400EF9A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DCB4AF1DAE102400EF9A47 /* AppDelegate.m */; };
+		84DCB4B31DAE102400EF9A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DCB4B21DAE102400EF9A47 /* ViewController.m */; };
+		84DCB4B61DAE102400EF9A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCB4B41DAE102400EF9A47 /* Main.storyboard */; };
+		84DCB4B81DAE102400EF9A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCB4B71DAE102400EF9A47 /* Assets.xcassets */; };
+		84DCB4BB1DAE102400EF9A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCB4B91DAE102400EF9A47 /* LaunchScreen.storyboard */; };
+		84DCB4C61DAE102400EF9A47 /* _______MVC_MVVM_MVP___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DCB4C51DAE102400EF9A47 /* _______MVC_MVVM_MVP___Tests.m */; };
+		84DCB4D11DAE102400EF9A47 /* _______MVC_MVVM_MVP___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DCB4D01DAE102400EF9A47 /* _______MVC_MVVM_MVP___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DCB4C21DAE102400EF9A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DCB4A01DAE102400EF9A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DCB4A71DAE102400EF9A47;
+			remoteInfo = "设计模式之经典MVC、MVVM和MVP的比较";
+		};
+		84DCB4CD1DAE102400EF9A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DCB4A01DAE102400EF9A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DCB4A71DAE102400EF9A47;
+			remoteInfo = "设计模式之经典MVC、MVVM和MVP的比较";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B98BB21E2F782A00494693 /* MVC_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVC_Controller.h; sourceTree = "<group>"; };
+		84B98BB31E2F782A00494693 /* MVC_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVC_Controller.m; sourceTree = "<group>"; };
+		84B98BB51E2F783E00494693 /* MVVM_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVM_Controller.h; sourceTree = "<group>"; };
+		84B98BB61E2F783E00494693 /* MVVM_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVM_Controller.m; sourceTree = "<group>"; };
+		84B98BB81E2F785A00494693 /* MVP_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVP_Controller.h; sourceTree = "<group>"; };
+		84B98BB91E2F785A00494693 /* MVP_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVP_Controller.m; sourceTree = "<group>"; };
+		84B98BBB1E2F787100494693 /* VIPER_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPER_Controller.h; sourceTree = "<group>"; };
+		84B98BBC1E2F787100494693 /* VIPER_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPER_Controller.m; sourceTree = "<group>"; };
+		84DCB4A81DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式之经典MVC、MVVM和MVP的比较.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCB4AC1DAE102400EF9A47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DCB4AE1DAE102400EF9A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DCB4AF1DAE102400EF9A47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DCB4B11DAE102400EF9A47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DCB4B21DAE102400EF9A47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DCB4B51DAE102400EF9A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DCB4B71DAE102400EF9A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DCB4BA1DAE102400EF9A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DCB4BC1DAE102400EF9A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DCB4C11DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之经典MVC、MVVM和MVP的比较Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCB4C51DAE102400EF9A47 /* _______MVC_MVVM_MVP___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______MVC_MVVM_MVP___Tests.m"; sourceTree = "<group>"; };
+		84DCB4C71DAE102400EF9A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DCB4CC1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之经典MVC、MVVM和MVP的比较UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCB4D01DAE102400EF9A47 /* _______MVC_MVVM_MVP___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______MVC_MVVM_MVP___UITests.m"; sourceTree = "<group>"; };
+		84DCB4D21DAE102400EF9A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DCB4A51DAE102400EF9A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4BE1DAE102400EF9A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4C91DAE102400EF9A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DCB49F1DAE102400EF9A47 = {
+			isa = PBXGroup;
+			children = (
+				84DCB4AA1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */,
+				84DCB4C41DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests */,
+				84DCB4CF1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests */,
+				84DCB4A91DAE102400EF9A47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DCB4A91DAE102400EF9A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DCB4A81DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较.app */,
+				84DCB4C11DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests.xctest */,
+				84DCB4CC1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DCB4AA1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */ = {
+			isa = PBXGroup;
+			children = (
+				84DCB4AE1DAE102400EF9A47 /* AppDelegate.h */,
+				84DCB4AF1DAE102400EF9A47 /* AppDelegate.m */,
+				84DCB4B11DAE102400EF9A47 /* ViewController.h */,
+				84DCB4B21DAE102400EF9A47 /* ViewController.m */,
+				84B98BB21E2F782A00494693 /* MVC_Controller.h */,
+				84B98BB31E2F782A00494693 /* MVC_Controller.m */,
+				84B98BB51E2F783E00494693 /* MVVM_Controller.h */,
+				84B98BB61E2F783E00494693 /* MVVM_Controller.m */,
+				84B98BB81E2F785A00494693 /* MVP_Controller.h */,
+				84B98BB91E2F785A00494693 /* MVP_Controller.m */,
+				84B98BBB1E2F787100494693 /* VIPER_Controller.h */,
+				84B98BBC1E2F787100494693 /* VIPER_Controller.m */,
+				84DCB4B41DAE102400EF9A47 /* Main.storyboard */,
+				84DCB4B71DAE102400EF9A47 /* Assets.xcassets */,
+				84DCB4B91DAE102400EF9A47 /* LaunchScreen.storyboard */,
+				84DCB4BC1DAE102400EF9A47 /* Info.plist */,
+				84DCB4AB1DAE102400EF9A47 /* Supporting Files */,
+			);
+			path = "设计模式之经典MVC、MVVM和MVP的比较";
+			sourceTree = "<group>";
+		};
+		84DCB4AB1DAE102400EF9A47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DCB4AC1DAE102400EF9A47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DCB4C41DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84DCB4C51DAE102400EF9A47 /* _______MVC_MVVM_MVP___Tests.m */,
+				84DCB4C71DAE102400EF9A47 /* Info.plist */,
+			);
+			path = "设计模式之经典MVC、MVVM和MVP的比较Tests";
+			sourceTree = "<group>";
+		};
+		84DCB4CF1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DCB4D01DAE102400EF9A47 /* _______MVC_MVVM_MVP___UITests.m */,
+				84DCB4D21DAE102400EF9A47 /* Info.plist */,
+			);
+			path = "设计模式之经典MVC、MVVM和MVP的比较UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DCB4A71DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCB4D51DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较" */;
+			buildPhases = (
+				84DCB4A41DAE102400EF9A47 /* Sources */,
+				84DCB4A51DAE102400EF9A47 /* Frameworks */,
+				84DCB4A61DAE102400EF9A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式之经典MVC、MVVM和MVP的比较";
+			productName = "设计模式之经典MVC、MVVM和MVP的比较";
+			productReference = 84DCB4A81DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DCB4C01DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCB4D81DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较Tests" */;
+			buildPhases = (
+				84DCB4BD1DAE102400EF9A47 /* Sources */,
+				84DCB4BE1DAE102400EF9A47 /* Frameworks */,
+				84DCB4BF1DAE102400EF9A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DCB4C31DAE102400EF9A47 /* PBXTargetDependency */,
+			);
+			name = "设计模式之经典MVC、MVVM和MVP的比较Tests";
+			productName = "设计模式之经典MVC、MVVM和MVP的比较Tests";
+			productReference = 84DCB4C11DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DCB4CB1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCB4DB1DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较UITests" */;
+			buildPhases = (
+				84DCB4C81DAE102400EF9A47 /* Sources */,
+				84DCB4C91DAE102400EF9A47 /* Frameworks */,
+				84DCB4CA1DAE102400EF9A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DCB4CE1DAE102400EF9A47 /* PBXTargetDependency */,
+			);
+			name = "设计模式之经典MVC、MVVM和MVP的比较UITests";
+			productName = "设计模式之经典MVC、MVVM和MVP的比较UITests";
+			productReference = 84DCB4CC1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DCB4A01DAE102400EF9A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = __MyCompanyName__;
+				TargetAttributes = {
+					84DCB4A71DAE102400EF9A47 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					84DCB4C01DAE102400EF9A47 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84DCB4A71DAE102400EF9A47;
+					};
+					84DCB4CB1DAE102400EF9A47 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84DCB4A71DAE102400EF9A47;
+					};
+				};
+			};
+			buildConfigurationList = 84DCB4A31DAE102400EF9A47 /* Build configuration list for PBXProject "设计模式之经典MVC、MVVM和MVP的比较" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DCB49F1DAE102400EF9A47;
+			productRefGroup = 84DCB4A91DAE102400EF9A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DCB4A71DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */,
+				84DCB4C01DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较Tests */,
+				84DCB4CB1DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DCB4A61DAE102400EF9A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCB4BB1DAE102400EF9A47 /* LaunchScreen.storyboard in Resources */,
+				84DCB4B81DAE102400EF9A47 /* Assets.xcassets in Resources */,
+				84DCB4B61DAE102400EF9A47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4BF1DAE102400EF9A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4CA1DAE102400EF9A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DCB4A41DAE102400EF9A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B98BBD1E2F787100494693 /* VIPER_Controller.m in Sources */,
+				84B98BB41E2F782A00494693 /* MVC_Controller.m in Sources */,
+				84DCB4B31DAE102400EF9A47 /* ViewController.m in Sources */,
+				84DCB4B01DAE102400EF9A47 /* AppDelegate.m in Sources */,
+				84DCB4AD1DAE102400EF9A47 /* main.m in Sources */,
+				84B98BB71E2F783E00494693 /* MVVM_Controller.m in Sources */,
+				84B98BBA1E2F785A00494693 /* MVP_Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4BD1DAE102400EF9A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCB4C61DAE102400EF9A47 /* _______MVC_MVVM_MVP___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DCB4C81DAE102400EF9A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCB4D11DAE102400EF9A47 /* _______MVC_MVVM_MVP___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DCB4C31DAE102400EF9A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DCB4A71DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */;
+			targetProxy = 84DCB4C21DAE102400EF9A47 /* PBXContainerItemProxy */;
+		};
+		84DCB4CE1DAE102400EF9A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DCB4A71DAE102400EF9A47 /* 设计模式之经典MVC、MVVM和MVP的比较 */;
+			targetProxy = 84DCB4CD1DAE102400EF9A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DCB4B41DAE102400EF9A47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DCB4B51DAE102400EF9A47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DCB4B91DAE102400EF9A47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DCB4BA1DAE102400EF9A47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DCB4D31DAE102400EF9A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84DCB4D41DAE102400EF9A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DCB4D61DAE102400EF9A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DCB4D71DAE102400EF9A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84DCB4D91DAE102400EF9A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之经典MVC、MVVM和MVP的比较.app/设计模式之经典MVC、MVVM和MVP的比较";
+			};
+			name = Debug;
+		};
+		84DCB4DA1DAE102400EF9A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之经典MVC、MVVM和MVP的比较.app/设计模式之经典MVC、MVVM和MVP的比较";
+			};
+			name = Release;
+		};
+		84DCB4DC1DAE102400EF9A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之经典MVC、MVVM和MVP的比较";
+			};
+			name = Debug;
+		};
+		84DCB4DD1DAE102400EF9A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "设计模式之经典MVC、MVVM和MVP的比较UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.-------MVC-MVVM-MVP---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之经典MVC、MVVM和MVP的比较";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DCB4A31DAE102400EF9A47 /* Build configuration list for PBXProject "设计模式之经典MVC、MVVM和MVP的比较" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCB4D31DAE102400EF9A47 /* Debug */,
+				84DCB4D41DAE102400EF9A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCB4D51DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCB4D61DAE102400EF9A47 /* Debug */,
+				84DCB4D71DAE102400EF9A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCB4D81DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCB4D91DAE102400EF9A47 /* Debug */,
+				84DCB4DA1DAE102400EF9A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCB4DB1DAE102400EF9A47 /* Build configuration list for PBXNativeTarget "设计模式之经典MVC、MVVM和MVP的比较UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCB4DC1DAE102400EF9A47 /* Debug */,
+				84DCB4DD1DAE102400EF9A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DCB4A01DAE102400EF9A47 /* Project object */;
+}
